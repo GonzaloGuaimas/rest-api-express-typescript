@@ -49,7 +49,7 @@ const toNewDirayEntry = (object: any): NewDiaryEntry => {
     comment: parseComment(object.comment),
     date: parseDate(object.date),
     weather: parseWeather(object.weather),
-    visibity: parseVisibility(object.visibility)
+    visibility: parseVisibility(object.visibility)
   }
   return newEntry
 }

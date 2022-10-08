@@ -22,7 +22,7 @@ export interface DiaryEntry {
   comment: string
 }
 
-export type NewDiaryEntry = Ommit<DiaryEntry, 'id'>
+export type NewDiaryEntry = Omit<DiaryEntry, 'id'>
 
 // export type NonSensitiveInfoDiaryEntry = Pick<DiaryEntry, 'id' | 'date' | 'weather' | 'visibility'>
 
